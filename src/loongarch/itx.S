@@ -5075,10 +5075,6 @@ endconst
             vr1, vr0, vr19, vr17, vr3, vr9, vr13, vr15
 .endif
 
-    // out0 out1 out2 out3 out4 out5 out6 out7
-    // vr14 vr18 vr2  vr5  vr7  vr4  vr8  vr10
-    // out8 out9 out10 out11 out12 out13 out14 out15
-    // vr1  vr0  vr19  vr17  vr3   vr9   vr13  vr15 
 .endm // adst16_core_lsx
 
 .macro adst16_core_finish_lsx in0, in1, in2, in3, in4, in5, in6, in7
